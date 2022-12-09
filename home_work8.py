@@ -44,7 +44,7 @@ for name, dates in users.items():
             birthday_per_week[dates.strftime('%A')].append(name)
 
 for k, v in birthday_per_week.items():
-    print(k, ":", str(v).replace('[','').replace(']','').replace('\'',''))
+    print(k, ":", str(v).replace('[', '').replace(']', '').replace('\'', ''))
 
 
 
