@@ -5,10 +5,10 @@ from collections import defaultdict, OrderedDict
 birthday_per_week = defaultdict(list)
 
 test_users = [{'Nikola Tesla': '1856/12/10'}, {'Albert Einstein': '1879.12.11'}, {'Alain Aspect': '1947,12,15'},
-               {'Maryna Viazovska': '12-12-1984'}, {'Mr. Incognito': '16 Dec 2000'}, {'Mr. X': '1999 12 17'},
-               {'Mr. Y': '1999 12 14'}, {"Yulia": "06/12/1996"}, {'Yarpl': '07/12/1997'}, {'Sunny': '26/12/2000'},
-               {'Luk': '10/12/1995'}, {'Sim': '12/12/1991'}, {'Nok': '14/12/1994'}, {'Kred': '13/12/1994'},
-               {'Tim': '18/12/1997'}, {'Kooc': '09/12/1997'}
+              {'Maryna Viazovska': '12-12-1984'}, {'Mr. Incognito': '16 Dec 2000'}, {'Mr. X': '1999 12 17'},
+              {'Mr. Y': '1999 12 14'}, {"Yulia": "06/12/1996"}, {'Yarpl': '07/12/1997'}, {'Sunny': '26/12/2000'},
+              {'Luk': '10/12/1995'}, {'Sim': '12/12/1991'}, {'Nok': '14/12/1994'}, {'Kred': '13/12/1994'},
+              {'Tim': '18/12/1997'}, {'Kooc': '09/12/1997'}
                ]
 
 
