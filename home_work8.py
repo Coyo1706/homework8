@@ -12,7 +12,7 @@ test_users = [{'Nikola Tesla': '1856/12/10'}, {'Albert Einstein': '1879.12.11'},
                ]
 
 
-def happy_birthday(users):
+def get_birthdays_per_week(users):
     users = {k: v for d in users for k, v in d.items()}
     users = {k: dateparser.parse(v) for k, v in users.items()}
     users = {k: v.replace(year=dt.date.today().year) for k, v in users.items()}
@@ -51,7 +51,7 @@ def happy_birthday(users):
 
 
 if __name__ == "__main__":
-    happy_birthday(test_users)
+    get_birthdays_per_week(test_users)
 
 
 
